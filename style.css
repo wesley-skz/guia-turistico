@@ -167,6 +167,27 @@ body {
     text-align: center;
 }
 
+.hero2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('contatos.png') center/cover no-repeat;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('contatos.png') center/cover no-repeat;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('contatos.png') center/cover no-repeat;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
 .hero-content {
     max-width: 800px;
     margin: 0 auto;
@@ -176,12 +197,43 @@ body {
     max-width: 800px;
     margin: 0 auto;
 }
+
+.hero2-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero3-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero4-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 .hero-title {
     font-size: 3em;
     margin-bottom: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 .hero1-title {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.hero2-title {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.hero3-title {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.hero4-title {
     font-size: 3em;
     margin-bottom: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -194,6 +246,21 @@ body {
 }
 
 .hero1-subtitle {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.hero2-subtitle {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.hero3-subtitle {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.hero4-subtitle {
     font-size: 1.5em;
     margin-bottom: 30px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
