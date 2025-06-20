@@ -1,0 +1,7 @@
+img {
+  width: 100 px;
+}
+
+img, p {
+  display: inline-block;
+}
