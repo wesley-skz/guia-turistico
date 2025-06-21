@@ -7,7 +7,7 @@ img, p {
   display: inline-block;
 }
 /* tamanho */
-.imagem-responsiva {
-  max-width: 10%;
+imagem-responsiva {
+  max-width: 500;
   height: auto;
 }
