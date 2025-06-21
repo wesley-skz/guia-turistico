@@ -1,3 +1,4 @@
+/* imagens e textos lado a lado */
 img {
   width: 100 px;
 }
@@ -5,7 +6,7 @@ img {
 img, p {
   display: inline-block;
 }
-
+/* localização */
 img1 {
   width: 100 px;
 }
