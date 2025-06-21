@@ -5,3 +5,11 @@ img {
 img, p {
   display: inline-block;
 }
+
+img1 {
+  width: 100 px;
+}
+
+img1, p {
+  display: inline-block;
+}
