@@ -8,6 +8,6 @@ img, p {
 }
 /* tamanho */
 imagem-responsiva {
-  max-width: 1000;
+  max-width: 100 px;
   height: auto;
 }
