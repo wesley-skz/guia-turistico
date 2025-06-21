@@ -11,6 +11,6 @@ img1 {
   width: 100 px;
 }
 
-img1, p {
-  display: inline-block;
+.container1 {
+    display:flex;
 }
