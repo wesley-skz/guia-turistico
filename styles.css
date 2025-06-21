@@ -1,6 +1,6 @@
 /* imagens e textos lado a lado */
 img {
-  width: 10 px;
+  width: 50 px;
 }
 
 img, p {
@@ -8,6 +8,6 @@ img, p {
 }
 /* tamanho */
 imagem-responsiva {
-  max-width: 100 px;
+  max-width: 50 %;
   height: auto;
 }
