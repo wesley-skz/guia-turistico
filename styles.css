@@ -6,4 +6,8 @@ img {
 img, p {
   display: inline-block;
 }
-/* localização */
+/* tamanho */
+.imagem-responsiva {
+  max-width: 10%;
+  height: auto;
+}
