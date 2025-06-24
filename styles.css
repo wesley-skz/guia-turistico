@@ -8,6 +8,6 @@ img, p {
 }
 
 imagem-responsiva {
-  max-width: 30%;
+  max-width: 30 px;
   height: auto;
 }
