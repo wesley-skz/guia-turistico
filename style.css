@@ -469,4 +469,16 @@ body {
     .section-title {
         font-size: 2em;
     }
+
+    
+   .container1 {
+      display: flex;
+      align-items: center; /* Centraliza verticalmente */
+      justify-content: center; /* Centraliza horizontalmente */
+      flex-direction: column; /* Empilha os elementos verticalmente */
+    }
+
+.text {
+  margin: 10px; /* Espaçamento opcional */
+}
 }
