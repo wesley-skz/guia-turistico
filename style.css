@@ -478,7 +478,7 @@ body {
       flex-direction: column; /* Empilha os elementos verticalmente */
     }
 
-.text {
-  margin: 10px; /* Espaçamento opcional */
-}
+    .text1 {
+      margin: 10px; /* Espaçamento opcional */
+    }
 }
