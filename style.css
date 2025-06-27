@@ -471,14 +471,13 @@ body {
     }
 
     
-   .container1 {
-      display: flex;
+     .container1 {
+      display: grid;
+      grid-template-columns: auto 1fr; /* Uma coluna para a imagem e outra para o texto */
       align-items: center; /* Centraliza verticalmente */
-      justify-content: center; /* Centraliza horizontalmente */
-      flex-direction: column; /* Empilha os elementos verticalmente */
+      justify-items: center; /* Centraliza horizontalmente */
     }
 
-    .text1 {
-      margin: 30px; /* Espaçamento opcional */
+    .imagem {
+      margin-right: 20px; /* Espaçamento entre a imagem e o texto */
     }
-}
