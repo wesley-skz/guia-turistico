@@ -471,13 +471,29 @@ body {
     }
 
     
-     .container1 {
-      display: grid;
-      grid-template-columns: auto 1fr; /* Uma coluna para a imagem e outra para o texto */
-      align-items: center; /* Centraliza verticalmente */
-      justify-items: center; /* Centraliza horizontalmente */
+    .image-container {
+        position: relative; /* Necessário para o posicionamento absoluto dos pseudo-elementos */
+        display: inline-block; /* Ou outro valor adequado para o seu layout */
     }
 
-    .imagem {
-      margin-right: 20px; /* Espaçamento entre a imagem e o texto */
+    .image-container img {
+        display: block; /* Garante que a imagem não tenha espaços extras abaixo */
+    }
+
+    .before-text,
+    .after-text {
+        position: absolute;
+        white-space: nowrap; /* Impede que o texto quebre em várias linhas */
+    }
+
+    .before-text {
+       top: 0;
+       left: 0;
+       transform: translateY(-100%); /* Posiciona o texto acima da imagem */
+    }
+
+    .after-text {
+      bottom: 0;
+      right: 0;
+      transform: translateY(100%); /* Posiciona o texto abaixo da imagem */
     }
