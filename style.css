@@ -472,7 +472,7 @@ body {
 
     
     .image-container {
-        position: relative; /* Necessário para o posicionamento absoluto dos pseudo-elementos */
+        position: center; /* Necessário para o posicionamento absoluto dos pseudo-elementos */
         display: inline-block; /* Ou outro valor adequado para o seu layout */
     }
 
