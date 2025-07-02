@@ -483,17 +483,17 @@ body {
     .before-text,
     .after-text {
         position: absolute;
-        white-space: nowrap; /* Impede que o texto quebre em várias linhas */
+        white-space: pre-line; 
     }
 
     .before-text {
        top: 0;
        left: 0;
-       transform: translateY(-100%); /* Posiciona o texto acima da imagem */
+       transform: translateY(-50%); /* Posiciona o texto acima da imagem */
     }
 
     .after-text {
       bottom: 0;
       right: 0;
-      transform: translateY(100%); /* Posiciona o texto abaixo da imagem */
+      transform: translateY(50%); /* Posiciona o texto abaixo da imagem */
     }
