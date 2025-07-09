@@ -480,6 +480,7 @@ body {
     .image-container {
         position: center; /* Necessário para o posicionamento absoluto dos pseudo-elementos */
         display: inline-block; /* Ou outro valor adequado para o seu layout */
+        gap: 20px; /* Adiciona espaço entre os elementos (20px) */
     }
 
     .image-container img {
